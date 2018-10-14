@@ -2,6 +2,8 @@
 .card-body {
 	/*clear: both;*/
 	background-image: url(images/bg.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
 	color: white;
 	text-align: center;
 }
@@ -76,3 +78,25 @@
 	color: white;
 	text-align: center;
 }
+
+/*MQ*/
+@media (max-width: 450px) {
+		.nav.nav-tabs.card-header-tabs {
+		float: left;
+		}
+		.logo-header {
+		height: 60px;
+		}
+		.container-text {
+		max-width: 600px;
+		width: 100%;
+		margin: 0 auto;
+		padding: 0 0 20px 0;
+		}
+		.C3 {
+			display: inline;
+		}
+		.bajada2 {
+			float: none;
+		}
+	}
